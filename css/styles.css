@@ -60,11 +60,12 @@ button {
 .section-title {
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.72px;
   color: #2e2f42;
   text-transform: capitalize;
   text-align: center;
-  margin-bottom: 80px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* header*/
@@ -146,15 +147,7 @@ button {
 
 .main {
 }
-.section-title {
-  font-weight: bold;
-  font-size: 36px;
-  letter-spacing: 2%;
-  color: #2e2f42;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -170,12 +163,15 @@ button {
 .solutions {
   background-color: #2e2f42;
 }
+
 .solutions-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  padding: 188px 0 48px 0;
+  margin: 0 316px;
 }
 .solutions-button {
   font-weight: 500;
@@ -184,6 +180,9 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  margin: 0 480px 190px 480px;
+  width: 169px;
+  height: 56px;
 }
 .solutions-button:hover,
 .solutions-button:focus {
@@ -195,10 +194,11 @@ button {
 }
 .features-list {
   display: flex;
+  justify-content: space-between;
   gap: 24px;
-  flex-basis: calc((100%-24px * 3) / 4);
 }
 .features-item {
+  flex-basis: calc((100% - 24px * 3) / 4);
 }
 .subtitle {
   font-weight: 500;
@@ -213,6 +213,7 @@ button {
   letter-spacing: 0.02em;
 }
 .features-subtitle {
+  margin-bottom: 8px;
 }
 .features-text {
 }
@@ -220,13 +221,17 @@ button {
   background-color: #f4f4fd;
 }
 .team-title {
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100%-24px * 3) / 4);
+  justify-content: space-between;
 }
 .team-item {
+  width: 264px;
+  height: 380px;
+  flex-basis: calc((100% - 24px * 3) / 4);
 }
 .team-img {
 }
@@ -236,15 +241,28 @@ button {
 }
 .portfolio {
 }
+
 .portfolio-title {
+  padding: 0 456px 72px 456px;
 }
 .portfolio-list {
   display: flex;
-  gap: 24px;
-  flex-basis: calc((100%-24px * 2) / 3);
+  gap: 48px 24px;
   flex-wrap: wrap;
 }
 .portfolio-item {
+  flex-basis: calc((100% - 24px * 2) / 3);
+  width: 360px;
+  height: 420px;
+}
+.portfolio-description {
+  display: flex;
+  flex-direction: column;
+  gap: 8 px;
+  padding: 32px 0 32px 16px;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
 }
 .portfolio-img {
 }
