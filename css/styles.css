@@ -162,10 +162,9 @@ button {
 }
 .solutions {
   background-color: #2e2f42;
+  padding: 188px 0 188px;
 }
-.container-solutions {
-  padding: 188px 0;
-}
+
 .solutions-title {
   font-size: 56px;
   line-height: 1.07;
@@ -293,8 +292,6 @@ button {
 }
 .footer {
   background: #2e2f42;
-}
-.footer-container {
   padding: 100px 0;
 }
 .footer-logo {
