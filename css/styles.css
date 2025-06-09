@@ -60,7 +60,7 @@ button {
 .section-title {
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
   text-align: center;
@@ -170,6 +170,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  width: 496px;
   padding: 188px 0 48px 0;
   margin: 0 316px;
 }
@@ -232,6 +233,17 @@ button {
   width: 264px;
   height: 380px;
   flex-basis: calc((100% - 24px * 3) / 4);
+  border-radius: 0 0 4px 4px;
+  border: 1px solid #e7e9fc;
+}
+
+.team-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 32px 16px 32px 16px;
 }
 .team-img {
 }
@@ -243,7 +255,8 @@ button {
 }
 
 .portfolio-title {
-  padding: 0 456px 72px 456px;
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
 .portfolio-list {
   display: flex;
@@ -274,10 +287,15 @@ button {
 .footer {
   background: #2e2f42;
 }
-
+.footer-logo {
+  display: inline-block;
+  padding: 100px 0 16px 0;
+}
 .logo-light {
   color: #f4f4fd;
 }
 .footer-text {
+  width: 264px;
   color: #f4f4fd;
+  padding-bottom: 100px;
 }
